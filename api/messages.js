@@ -8,7 +8,7 @@ const pool = new Pool({
 
 export default async function handler(req, res) {
   // Set CORS agar hanya bisa diakses dari GitHub Pages kamu
-  const allowedOrigin = 'https://fachryxyf224.github.io/chat-web/';
+  const allowedOrigin = 'https://fachryxyf224.github.io';
   res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
